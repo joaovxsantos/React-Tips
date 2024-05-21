@@ -16,7 +16,7 @@ function App() {
       </header>
       <section className="sec-infos">
         {DATA_TEXT.map((data, index) => <Button className={actualIndex === index ? 'active' : undefined} key={index} onClick={() => setactualIndex(index)}>{data.title}</Button>)}
-        <Content {...DATA_TEXT[actualIndex]} />
+        <Content {...DATA_TEXT[actualIndex]} id={'cod' + actualIndex.toString()}/>
       </section>
     </>
   )

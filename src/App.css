@@ -11,4 +11,14 @@ header #react-logo {
 .sec-infos {
   margin-top: 20px;
   width: 550px;
+  max-width: 95vw;
+}
+
+@media screen and (max-width: 576px) {
+  header h1 {
+    margin: 0px 9.6px 0px 9.53px;
+  }
+  .sec-infos {
+    margin: auto;
+  }
 }
