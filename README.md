@@ -34,6 +34,20 @@ Abra o link que aparerá em Local e o projeto estará pronto para uso!
 
 ## Resultado do Projeto
 
+Desktop
+
+
+
+https://github.com/joaovxsantos/React-Tips/assets/97799540/47790463-66d5-47d7-8f33-2d24d53d2c0d  
+
+Mobile  
+![mobile](https://github.com/joaovxsantos/React-Tips/assets/97799540/b778215d-c63f-4372-af1f-85ffccb08acf)
+
+
+
+
+
+
 
 
 
