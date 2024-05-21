@@ -1,30 +1,30 @@
 export const DATA_TEXT = [
     {
-        title: 'Components',
-        description: 'Components are the building blocks of React applications. A component is a self-contained module (HTML + optional CSS + JS) that renders some output.',
-        code: `function Welcome() {
+        title: 'Componentes',
+        description: 'Os componentes são os blocos de construção dos aplicativos React. Um componente é um módulo independente (HTML + CSS + JS opcional) que renderiza alguma saída.',
+        code: `function BemVindo() {
     return <h1>Hello, World!</h1>;
 }`
     },
     {
         title: 'Jsx',
-        description: 'JSX is a syntax extension to JavaScript. It is similar to a template language, but it has full power of JavaScript (e.g., it may output dynamic content).',
+        description: 'JSX é uma extensão de sintaxe para JavaScript. É semelhante a uma linguagem de modelo, mas possui todo o poder do JavaScript (por exemplo, pode gerar conteúdo dinâmico).',
         code: `<div>
-        <h1>Welcome {userName}</h1>
-        <p>Time to learn React!</p>
+        <h1>Bem vindo {userName}</h1>
+        <p>Hora de estudar React!</p>
 </div>
         `
     },
     {
         title: 'Props',
-        description: 'Components accept arbitrary inputs called props. They are like function arguments.',
-        code: `function Welcome (props) {
-            return <h1>Hello, {props.name}</h1>;
+        description: 'Os componentes aceitam entradas arbitrárias chamadas props. Eles são como argumentos de função.',
+        code: `function BemVindo (props) {
+            return <h1>Olá, {props.name}</h1>;
 }`
     },
     {
         title: 'State',
-        description: 'State allows React components to change their output over time in response to user actions, network responses, and anything else.',
+        description: 'O State permite que os componentes do React mudem sua saída ao longo do tempo em resposta às ações do usuário, respostas da rede e qualquer outra coisa.',
         code: `function Counter() {
             const [isVisible, setIsVisible] = useState(false);
           
@@ -34,8 +34,8 @@ export const DATA_TEXT = [
           
             return (
               <div>
-                    <button onClick={handleClick}>Show Details</button>
-                    {isVisible && <p>Amazing details!</p>}
+                    <button onClick={handleClick}>Mostrar Detalhes</button>
+                    {isVisible && <p>Detalhes incríveis!</p>}
               </div>
             )
 }`
