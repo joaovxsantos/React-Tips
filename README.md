@@ -3,7 +3,9 @@
 ## Finalidade
 * Praticar, consolidar e aprimorar meus aprendizados em React.
 ## Tecnologias utilizadas
-* React
+* React v18.3.1
+## Acessando o projeto
+Caso queira acessar diretamente o projeto [clique aqui]().
 ## Rodando o Projeto
 Para compilar o projeto, você precisa ter instalado o ```Visual Studio Code``` e o ```Node.js```.  
 
