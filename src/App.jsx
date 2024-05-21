@@ -15,7 +15,7 @@ function App() {
         <h1>Propriedades Iniciais do React</h1>
       </header>
       <section className="sec-infos">
-        {DATA_TEXT.map((data, index) => <Button className={actualIndex === index ? 'active' : undefined} key={index} onClick={() => setactualIndex(index)}>{data.title}</Button>)}
+        {DATA_TEXT.map((data, index) => <Button className={actualIndex === index ? 'active' : undefined} key={index} onClick={() => setactualIndex(index)}>{data.title.toUpperCase()}</Button>)}
         <Content {...DATA_TEXT[actualIndex]} id={'cod' + actualIndex.toString()}/>
       </section>
     </>
