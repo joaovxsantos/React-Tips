@@ -22,3 +22,13 @@ header #react-logo {
     margin: auto;
   }
 }
+
+@media screen and (max-width: 320px) {
+  header h1 {
+    font-size: 28px;
+  }
+  
+  .sec-infos {
+    margin-top: 25px;
+  }
+}

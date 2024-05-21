@@ -1,19 +1,25 @@
 .sec-infos button {
-    border: none;
-    padding: 10px 15px;
-    margin-right: 12px;
-    background: transparent;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 500ms ease, color 500ms ease;
-    font-weight: 700;
+  border: none;
+  padding: 10px 15px;
+  margin-right: 12px;
+  background: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 500ms ease, color 500ms ease;
+  font-weight: 700;
+}
+
+.sec-infos button:active {
+  transform: scale(0.98);
+}
+
+.sec-infos button.active,
+.sec-infos button:hover {
+  background: var(--blue-cyan);
+}
+
+@media screen and (max-width: 320px) {
+  .sec-infos button {
+    padding: 10px 10px;
   }
-  
-  .sec-infos button:active {
-    transform: scale(0.98);
-  }
-  
-  .sec-infos button.active,
-  .sec-infos button:hover {
-    background: var(--blue-cyan);
-  }
+}
