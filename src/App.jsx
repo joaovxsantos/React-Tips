@@ -7,7 +7,10 @@ function App() {
 
   return (
     <>
-      
+      <header>
+        <img src={reactLogo} alt="React Logo" id="react-logo" />
+        <h1>Propriedades Iniciais do React</h1>
+      </header>
     </>
   )
 }
