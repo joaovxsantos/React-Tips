@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 import { DATA_TEXT } from './data'
 import Button from './Components/Button/Button'
+import Content from './Components/Content/Content'
 
 function App() {
   const [actualIndex, setactualIndex] = useState(0)
@@ -15,7 +16,7 @@ function App() {
       </header>
       <section className="sec-infos">
         {DATA_TEXT.map((data, index) => <Button className={actualIndex === index ? 'active' : undefined} key={index} onClick={() => setactualIndex(index)}>{data.title}</Button>)}
-
+        <Content {...DATA_TEXT[actualIndex]} />
       </section>
     </>
   )

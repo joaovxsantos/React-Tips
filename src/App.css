@@ -8,3 +8,7 @@ header #react-logo {
   display: block;
   margin: auto;
 }
+.sec-infos {
+  margin-top: 20px;
+  width: 550px;
+}
