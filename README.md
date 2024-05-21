@@ -5,7 +5,7 @@
 ## Tecnologias utilizadas
 * React v18.3.1
 ## Acessando o projeto
-Caso queira acessar diretamente o projeto [clique aqui]().
+Caso queira acessar diretamente o projeto [clique aqui](https://reacttips.netlify.app/).
 ## Rodando o Projeto
 Para compilar o projeto, você precisa ter instalado o ```Visual Studio Code``` e o ```Node.js```.  
 
